@@ -1,0 +1,8 @@
+
+:root {
+	--blue400: hsl(210, 86%, 53%);
+	--gray100: hsl(0, 0%, 95%);
+	--gray400: hsl(0, 0%, 75%);
+
+	--table-border-radius: 0.5rem;
+}

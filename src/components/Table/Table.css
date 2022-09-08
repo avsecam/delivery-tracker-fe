@@ -1,0 +1,10 @@
+@import url("./constants.css");
+
+table {
+	margin: 2rem;
+	background-color: var(--gray100);
+	box-shadow: 0 0.3rem 1rem var(--gray400);
+	border-collapse: separate;
+	border-spacing: 0;
+	border-radius: var(--table-border-radius);
+}

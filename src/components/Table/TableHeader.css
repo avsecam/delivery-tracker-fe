@@ -1,0 +1,18 @@
+@import url("./constants.css");
+
+.TableHeader {
+	color: white;
+	background-color: var(--blue400);
+}
+
+.columnHeader:first-child {
+	border-radius: var(--table-border-radius) 0 0 0;
+}
+.columnHeader:last-child {
+	border-radius: 0 var(--table-border-radius) 0 0;
+}
+
+
+.columnHeader {
+	padding: 0 2rem;
+}

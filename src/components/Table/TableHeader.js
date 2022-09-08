@@ -1,3 +1,5 @@
+import "./TableHeader.css";
+
 export default function TableHeader() {
 	return (
 		<tr className="TableHeader">
@@ -7,7 +9,7 @@ export default function TableHeader() {
 			<th className="columnHeader">Supplier</th>
 			<th className="columnHeader">Industry</th>
 			<th className="columnHeader">Category</th>
-			<th className="columnHeader">No. of SKU's</th>
+			<th className="columnHeader">SKU's</th>
 			<th className="columnHeader">Quantity Delivered</th>
 			<th className="columnHeader">Quantity Accepted</th>
 			<th className="columnHeader">Amount Delivered</th>

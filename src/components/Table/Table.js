@@ -1,3 +1,5 @@
+import "./Table.css";
+
 import TableHeader from "./TableHeader";
 import TableRow from "./TableRow";
 
