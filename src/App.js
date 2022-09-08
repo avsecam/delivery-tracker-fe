@@ -1,6 +1,6 @@
 import './App.css';
 import Table from './components/Table/Table';
-import data from '../data.json';
+import data from './data.json';
 
 function App() {
   return (
