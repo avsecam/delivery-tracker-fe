@@ -1,0 +1,3 @@
+As a User, I should be able to see a table with at least 20 columns and 10 rows.
+As a User, I should be able to view this page responsive to desktop and mobile view.
+Pagination is a PLUS, but not required.
