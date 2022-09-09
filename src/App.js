@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <Table data={data}/>
+      <div className="attribution">Mock data generated with <a href="https://www.mockaroo.com">Mockaroo</a>.</div>
     </div>
   );
 }

@@ -1,6 +1,3 @@
-@import url("../../constants.css");
-
-
 tr:nth-child(odd) {
 	background-color: white;
 }

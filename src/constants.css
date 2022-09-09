@@ -3,10 +3,13 @@
 :root {
 	--ffMain: "Montserrat", sans-serif;
 	--fw400: 500;
+	--fs400: 15px;
+	--fs500: 18px;
 
 	--blue400: hsl(210, 86%, 53%);
 	--gray100: hsl(0, 0%, 95%);
 	--gray400: hsl(0, 0%, 75%);
+	--gray700: hsl(0, 0%, 50%);
 
 	--table-border-radius: 0.5rem;
 }

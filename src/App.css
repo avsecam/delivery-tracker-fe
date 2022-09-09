@@ -2,3 +2,15 @@
   display: inline-block;
   margin: 2rem;
 }
+
+.attribution {
+  margin-top: 3rem;
+  width: 100%;
+  text-align: center;
+  color: var(--gray700);
+}
+
+a {
+  font-size: var(--fs500);
+  text-decoration: none;
+}

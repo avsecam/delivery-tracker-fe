@@ -1,9 +1,7 @@
-@import url("../../constants.css");
-
-.TableHeader,
 .TableHeader * {
 	color: white;
 	background-color: var(--blue400);
+	font-size: var(--fs600);
 }
 
 th {

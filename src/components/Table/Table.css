@@ -1,8 +1,6 @@
-@import url("../../constants.css");
-
 table {
 	background-color: var(--gray100);
-	box-shadow: 0 0.3rem 1rem var(--gray400);
+	box-shadow: 0 0.3rem 1rem var(--gray700);
 	border-collapse: collapse;
 	border-radius: var(--table-border-radius);
   overflow-x: visible;
