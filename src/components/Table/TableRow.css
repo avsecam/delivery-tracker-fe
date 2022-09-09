@@ -1,5 +1,25 @@
 @import url("./constants.css");
 
-.rowData {
-	padding: 1rem 0;
+td {
+	padding: 2rem 0;
+	text-align: start;
+	height: min(2rem, 100px);
+}
+
+.centered {
+	text-align: center;
+}
+.centered > div {
+	
+}
+
+.outlined {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.outlined > div {
+	border: 1px solid var(--blue400);
+	
 }

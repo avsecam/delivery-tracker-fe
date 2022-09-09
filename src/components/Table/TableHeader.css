@@ -5,14 +5,15 @@
 	background-color: var(--blue400);
 }
 
-.columnHeader:first-child {
+
+
+th {
+	padding: 0 2rem;
+	text-transform: uppercase;
+}
+th:first-child {
 	border-radius: var(--table-border-radius) 0 0 0;
 }
-.columnHeader:last-child {
+th:last-child {
 	border-radius: 0 var(--table-border-radius) 0 0;
-}
-
-
-.columnHeader {
-	padding: 0 2rem;
 }
