@@ -10,10 +10,13 @@ td {
 	text-align: center;
 }
 .centered > div {
-	display: inline-block;	
+	display: inline-block;
 }
 
 .outlined > div {
-	border: 1px solid var(--blue400);
-	
+	border: 3px solid var(--blue400);
+	width: 6rem;
+	padding-block: .5rem;
+	border-radius: 0.5rem;
+	text-transform: uppercase;
 }

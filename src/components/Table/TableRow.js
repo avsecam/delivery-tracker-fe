@@ -7,7 +7,10 @@ export default function TableRow(props) {
 			<td>{data.dr}</td>
 			<td>{data.po}</td>
 			<td className="outlined centered">
-				<div>
+				<div style={
+					{borderColor: (data.status) ? "lightgreen" : "gold",
+					color: (data.status) ? "green" : "darkgoldenrod"}
+				}>
 					{(data.status) ? "Delivered" : "In Transit"}
 				</div>
 			</td>
@@ -20,7 +23,10 @@ export default function TableRow(props) {
 			<td>₱{data.amt_delivered}</td>
 			<td>₱{data.amt_accepted}</td>
 			<td className="outlined centered">
-				<div>
+				<div style={
+					{borderColor: (data.type) ? "lightgreen" : "gold",
+					color: (data.type) ? "green" : "darkgoldenrod"}
+				}>
 					{(data.type) ? "Full" : "Partial"}
 				</div>
 			</td>
