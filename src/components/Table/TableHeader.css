@@ -1,6 +1,7 @@
-@import url("./constants.css");
+@import url("../../constants.css");
 
-tr.TableHeader {
+.TableHeader,
+.TableHeader * {
 	color: white;
 	background-color: var(--blue400);
 }
@@ -9,9 +10,24 @@ th {
 	padding: 1rem 2rem;
 	text-transform: uppercase;
 }
-th:first-child {
+
+.mainCategory > th {
+	padding-block: 0.5rem 0;
+}
+.mainCategory > th:first-child {
 	border-radius: var(--table-border-radius) 0 0 0;
 }
-th:last-child {
+.mainCategory > th:last-child {
 	border-radius: 0 var(--table-border-radius) 0 0;
+}
+
+.lightBorder {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+.lightBorderLeft {
+	border-left: 1px solid white;
+}
+.lightBorderRight {
+	border-right: 1px solid white;
 }

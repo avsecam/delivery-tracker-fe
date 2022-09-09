@@ -1,7 +1,7 @@
-@import url("./constants.css");
+@import url("../../constants.css");
 
 
-tr:nth-child(odd):not(.TableHeader) {
+tr:nth-child(odd) {
 	background-color: white;
 }
 tr:last-child > td:first-child {

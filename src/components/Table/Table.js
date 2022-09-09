@@ -7,12 +7,12 @@ export default function Table(props) {
 	let data = props.data;
 	return (
 		<table className="Table">
-			<tbody>
 				<TableHeader />
-				{data.map((item) => {
-					return (<TableRow data={item}/>);
-				})}
-			</tbody>
+				<tbody>
+					{data.map((item) => {
+						return (<TableRow data={item}/>);
+					})}
+				</tbody>
 		</table>
 	);
 }
