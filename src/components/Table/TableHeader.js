@@ -18,10 +18,10 @@ export default function TableHeader() {
 			<th>Delivery Date</th>
 			<th>ETA</th>
 			<th>Date Created</th>
-			<th>Point Person Surname</th>
-			<th>Point Person First Name</th>
-			<th>Point Person Username</th>
-			<th>Point Person ID</th>
+			<th>Surname</th>
+			<th>First Name</th>
+			<th>Username</th>
+			<th>ID</th>
 			<th>Color</th>
 		</tr>
 	)

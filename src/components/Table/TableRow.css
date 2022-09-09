@@ -10,15 +10,9 @@ td {
 	text-align: center;
 }
 .centered > div {
-	
+	display: inline-block;	
 }
 
-.outlined {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
 .outlined > div {
 	border: 1px solid var(--blue400);
 	

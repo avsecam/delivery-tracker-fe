@@ -5,10 +5,8 @@
 	background-color: var(--blue400);
 }
 
-
-
 th {
-	padding: 0 2rem;
+	padding: 1rem 2rem;
 	text-transform: uppercase;
 }
 th:first-child {
