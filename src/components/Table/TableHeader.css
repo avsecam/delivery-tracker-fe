@@ -1,6 +1,6 @@
 @import url("./constants.css");
 
-.TableHeader {
+tr.TableHeader {
 	color: white;
 	background-color: var(--blue400);
 }

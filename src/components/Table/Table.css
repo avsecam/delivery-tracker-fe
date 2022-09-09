@@ -3,8 +3,7 @@
 table {
 	background-color: var(--gray100);
 	box-shadow: 0 0.3rem 1rem var(--gray400);
-	border-collapse: separate;
-	border-spacing: 0;
+	border-collapse: collapse;
 	border-radius: var(--table-border-radius);
   overflow-x: visible;
 }

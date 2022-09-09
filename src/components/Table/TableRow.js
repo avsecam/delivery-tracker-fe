@@ -15,7 +15,7 @@ export default function TableRow(props) {
 				</div>
 			</td>
 			<td>{data.supplier}</td>
-			<td>{data.industry}</td>
+			<td>{(data.industry === "n/a") ? "N/A" : data.industry}</td>
 			<td>{data.category}</td>
 			<td>{data.sku_amt}</td>
 			<td>{data.qty_delivered}</td>
@@ -31,13 +31,17 @@ export default function TableRow(props) {
 				</div>
 			</td>
 			<td>{data.delivery_date}</td>
-			<td>{data.eta}</td>
+			<td>{data.eta} days</td>
 			<td>{data.creation_date}</td>
 			<td>{data.point_person_surname}</td>
 			<td>{data.point_person_firstname}</td>
 			<td>{data.point_person_username}</td>
-			<td>{data.point_person_id}</td>
-			<td style={{backgroundColor: data.color}}>{data.color}</td>
+			<td className="oneline">{data.point_person_id}</td>
+			<td className="outlined centered">
+				<div style={{backgroundColor: data.color, borderColor: "transparent"}}>
+					{data.color}
+				</div>
+			</td>
 		</tr>
 	);
 }

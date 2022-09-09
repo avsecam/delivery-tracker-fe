@@ -1,9 +1,20 @@
 @import url("./constants.css");
 
+
+tr:nth-child(odd):not(.TableHeader) {
+	background-color: white;
+}
+tr:last-child > td:first-child {
+	border-radius: 0 0 0 var(--table-border-radius);
+}
+tr:last-child > td:last-child {
+	border-radius: 0 0 var(--table-border-radius) 0;
+}
+
 td {
 	padding: 2rem 0;
-	text-align: start;
 	height: min(2rem, 100px);
+	text-align: center;
 }
 
 .centered {
@@ -19,4 +30,9 @@ td {
 	padding-block: .5rem;
 	border-radius: 0.5rem;
 	text-transform: uppercase;
+}
+
+.oneline {
+	white-space: nowrap;
+	padding-inline: 1rem;
 }
