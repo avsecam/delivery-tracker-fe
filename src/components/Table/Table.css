@@ -5,3 +5,33 @@ table {
 	border-radius: var(--table-border-radius);
   overflow-x: visible;
 }
+
+.pagination {
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	bottom: 2rem;
+}
+
+.pagination > button {
+	width: 4.75rem;
+	padding: 1.5rem;
+	margin-inline: 0.5rem;
+	border-radius: 999rem;
+	font-family: var(--ffMain);
+	font-size: var(--fs600);
+	border: none;
+	box-shadow: 0 0 0.75rem var(--shadow);
+	cursor: pointer;
+	transition: 0.15s box-shadow;
+}
+.pagination > button:hover {
+	box-shadow: 
+		0 0rem 0rem var(--gray300),
+		-0.15rem 0.25rem 0.25rem var(--shadow) inset;
+}
+.pagination > button.activePage {
+	background-color: var(--blue400);
+	color: white;
+}

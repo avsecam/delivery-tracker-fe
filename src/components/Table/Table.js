@@ -27,8 +27,9 @@ export default function Table(props) {
 	function createPageButtons(numberOfPages) {
 		let pageButtons = [];
 		for (let i = 0; i < numberOfPages; i++) {
+			let buttonClassName = (i === currentPage) ? "pageButton activePage" : "pageButton"; 
 			pageButtons.push(
-				<button className="pageButton" onClick={() => movePage(i)}>{i + 1}</button>
+				<button className={buttonClassName} onClick={() => movePage(i)}>{i + 1}</button>
 			);
 		}
 		return pageButtons;
