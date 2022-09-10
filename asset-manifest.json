@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/delivery-tracker-fe/static/css/main.4b08779c.css",
+    "main.js": "/delivery-tracker-fe/static/js/main.2a24f894.js",
+    "index.html": "/delivery-tracker-fe/index.html",
+    "main.4b08779c.css.map": "/delivery-tracker-fe/static/css/main.4b08779c.css.map",
+    "main.2a24f894.js.map": "/delivery-tracker-fe/static/js/main.2a24f894.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b08779c.css",
+    "static/js/main.2a24f894.js"
+  ]
+}
