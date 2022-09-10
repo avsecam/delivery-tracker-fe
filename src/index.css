@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: var(--ffMain);
   font-weight: 300;
-  font-size: var(--fs400);
+  font-size: var(--fs300);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

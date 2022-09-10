@@ -3,10 +3,12 @@
 :root {
 	--ffMain: "Montserrat", sans-serif;
 	--fw400: 500;
+	--fs300: 12px;
 	--fs400: 15px;
 	--fs500: 18px;
 	--fs600: 20px;
 
+	--blue200: hsl(210, 86%, 63%);
 	--blue400: hsl(210, 86%, 53%);
 	--gray100: hsl(0, 0%, 95%);
 	--gray300: hsl(0, 0%, 85%);
